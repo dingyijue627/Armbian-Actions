@@ -90,7 +90,7 @@ concurrency:
 env:
   DEFAULT_SCHEDULE_RELEASES: "resolute trixie"
   ALL_RELEASES: "bookworm bullseye buster focal jammy noble oracular plucky resolute sid trixie"
-  BOARD: "lemonpi som3588-cat ufi001c uz801"
+  BOARD: "AI3399pro liontron-k4 smart-ops3399c"
 
 # ====================================================================
 #  JOBS
@@ -179,7 +179,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        BRANCH: [edge, vendor]
+        BRANCH: [vendor]
         BOARD: ${{ fromJson(needs.Prepare_Build.outputs.BOARD) }}
 
     steps:
