@@ -90,7 +90,7 @@ concurrency:
 env:
   DEFAULT_SCHEDULE_RELEASES: "resolute trixie"
   ALL_RELEASES: "bookworm bullseye buster focal jammy noble oracular plucky resolute sid trixie"
-  BOARD: "AI3399pro liontron-k4 smart-ops3399c"
+  BOARD: " AI3399pro, liontron-k4, smart-ops3399c "
 
 # ====================================================================
 #  JOBS
