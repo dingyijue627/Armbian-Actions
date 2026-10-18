@@ -14,10 +14,9 @@ on:
         type: choice
         description: 'Board'
         options:
-        - lemonpi
-        - som3588-cat
-        - ufi001c
-        - uz801
+        - AI3399pro
+        - liontron-k4
+        - smart-ops3399c
         - all
         default: 'all'
 
@@ -46,15 +45,6 @@ on:
         options:
         - minimal
         - server
-        - gnome
-        - budgie
-        - cinnamon
-        - i3-wm
-        - kde-neon
-        - kde-plasma
-        - mate
-        - xfce
-        - xmonad
         - minimal_and_server
         default: 'minimal'
 
