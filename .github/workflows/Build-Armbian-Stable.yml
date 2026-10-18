@@ -179,7 +179,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        BRANCH: [vendor]
+        BRANCH: [current]
         BOARD: ${{ fromJson(needs.Prepare_Build.outputs.BOARD) }}
 
     steps:
